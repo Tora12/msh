@@ -1,6 +1,10 @@
 README
 
-  msh ("my shell") is a shell written in C that allows the user to run any Linux command line commands (bash-syntax compatible). To run msh.c first compile by using: "gcc -c msh2.c -o msh2.o", "gcc -c alias.c -o alias.o", "gcc -c history.c -o history.o", and "gcc msh2.o alias.o history.o" commands and then ./a.out to run.
+# msh.
+
+msh ("my shell") is a shell written in C that allows the user to run any Linux command line commands (bash-syntax compatible).
+
+## Description
 
 1. To run multiple commands using only one user input line the user must enter both commands separated by ";" with no space in between. EXAMPLE: "ls;ps" will execute "ls" first followed by "ps". (Note: There is a bug when including spaces between the commands and semicolon which results in failing to execute the first command)
 
@@ -18,5 +22,38 @@ README
 
 8. Some other commands include but are not limited to: pwd, ps, top, date, cal, who, mkdir, rmdir, more, ls, ls -l, ls -a, ls -ls, vim, ping, man, etc...
 
-WARNING: The msh2.c program is still a work in progress and there are still plenty bugs to fix and edge cases to implement. 
- 
+NOTE: The msh2.c program is still a work in progress and there are still plenty bugs to fix and edge cases to implement. 
+
+## Getting Started
+
+### Dependencies
+
+* bash
+
+### Installing
+
+* How/where to download your program
+* Any modifications needed to be made to files/folders
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Authors
+
+* Jenner Higgins
+
+## Version History
+
+* 1.0
+    * Basic shell operations
+* 2.0
+    * Added shell features
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
